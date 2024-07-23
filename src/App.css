@@ -298,9 +298,10 @@ form input, form textarea {
   color: var(--btn-rengi);
 }
 .blog-from {
-  height: 100vh;
+  height: 100vh ;
   background:linear-gradient(to bottom,var(--header-left), var(--header-right));
 }
+
 .about-from {
   height: 100vh;
   background:linear-gradient(to bottom,var(--header-left), var(--header-right));
@@ -312,7 +313,25 @@ form input, form textarea {
 
 
 
+
 @media(max-width:576px) {
+
+  .deep-right h2{
+    margin-left: 5px;
+    font-size: 30px !important;
+  }
+  .deep-right article{
+    margin-left: 5px;
+    font-size: 13px !important;
+  }
+  .What-size h2{
+    margin-left: 5px;
+    font-size: 26px !important;
+  }
+  .What-size article{
+    margin-left: 5px;
+    font-size: 13px !important;
+  }
   .deep-right {
     margin-top: 70px;
   }
@@ -357,10 +376,27 @@ form input, form textarea {
   .navbar-brand img{
     margin-left: 0%;
   }
+  .blog-from {
+    margin-top: -100px;
+    height: 120vh ;
+    background:linear-gradient(to bottom,var(--header-left), var(--header-right));
+  }
+  .about-from {
+    margin-top: -100px;
+    height: 120vh;
+    background:linear-gradient(to bottom,var(--header-left), var(--header-right));
+  }
+  .services-from {
+    margin-top: -100px;   
+    height: 150vh;
+    background:linear-gradient(to bottom,var(--header-left), var(--header-right));
+  }
 }
 
 
 @media(min-width:768px) {
+
+  
   .logo {
     width: 300px;
   }
@@ -476,5 +512,43 @@ form input, form textarea {
   }
   .navbar-brand img{
     margin-left: 20%;
+ 
+  }
+}
+
+
+@media(max-width:320px) {
+  .blog-from {
+    height: 150vh ;
+  }
+  .about-from {
+    margin-top: -100px;
+    height: 170vh;
+  }
+  .services-from {
+    margin-top: -100px;   
+    height: 230vh;
+  }
+  .Artificial-size{
+    font-size: 30px !important;
+  }
+  .Lorem-size{
+    font-size: 10px !important;
+  }
+  .deep-right h2{
+    margin-left: 5px;
+    font-size: 25px !important;
+  }
+  .deep-right article{
+    margin-left: 5px;
+    font-size: 12px !important;
+  }
+  .What-size h2{
+    margin-left: 5px;
+    font-size: 22px !important;
+  }
+  .What-size article{
+    margin-left: 5px;
+    font-size: 11px !important;
   }
 }

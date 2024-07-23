@@ -10,8 +10,8 @@ const Introduction: React.FC = () => {
         <div className="row">
         <div className="intro-left col-12 col-md-6 py-5">
           <h6 className="text-uppercase mb-4 ">Next genaretion platform</h6>
-          <h1 className="my-4">Artificial intelligence <br/>& Syber security</h1>
-          <p className="my-4 py-3">
+          <h1 className="Artificial-size my-4">Artificial intelligence <br/>& Syber security</h1>
+          <p className="Lorem-size my-4 py-3">
             Lorem ipsum is placeholder text commonly used in the graphic, <br/>print,
             and publishing industries for previewing layouts and <br/>  visual mockups.
           </p>

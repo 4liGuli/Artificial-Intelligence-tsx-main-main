@@ -5,7 +5,7 @@ const Clientssay:React.FC = () => {
     <div className='clients-say text-white py-5'>
         <div className="container">
             <div className="row">
-                <div className="clients-left col-12 col-md-6  py-5">
+                <div className="What-size clients-left col-12 col-md-6  py-5">
                     <h2 className="py-4">What our clients say about <br/>our awesome solutions</h2 >
                     <article>To take a trivial example, which of us ever undertakes <br/>laborious physical exercise, except to obtain some <br/>advantage from it who do not know.<br/><br/>
                     Lorem ipsum is placeholder text commonly used in the <br/>graphic, print, and publishing .<br/><br/>

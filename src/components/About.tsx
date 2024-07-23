@@ -6,8 +6,7 @@ const About:React.FC = () => {
         <div className="container text-white">
         <div className="row">
         <div className="intro-left col-12 col-md-6 py-5">
-          <h1 className="my-4">ABOUT</h1>
-          <h6>AI in Cybersecurity</h6>
+          <h1 className="my-4">AI in Cybersecurity</h1>
           <p className="my-4">
             Threat Detection: AI identifies unusual patterns in <br/>
             network traffic and detects malware using behavior analysis.<br/><br/>
